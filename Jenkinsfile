@@ -1,13 +1,13 @@
 pipeline{
     agent any 
       environment {        
-        ACCOUNT_NO          = '120334535859'
-        AWS_DEFAULT_REGION  = 'us-east-1'
+        ACCOUNT_NO          = '339146391262'
+        AWS_DEFAULT_REGION  = 'ap-southeast-1'
         ECR_REPO            = 'govgenie'
-        S3_Bucket           = 'govgenie-elasticbeanstalk'
+        S3_Bucket           = 'govgenie-test'
         JOB_NAME            = 'beanstalk'
         APPLICATION_NAME    = 'govgenie'	
-        EB_ENVIRONMENT_NAME = 'Govgenie-env-1' 
+        EB_ENVIRONMENT_NAME = 'Govgenie-env' 
         AWS_PROFILE         = 'default'  
    	
     }
